@@ -1,0 +1,11 @@
+<% -include("partials/header") %> 
+    <h1>Random Number</h1>
+    <h3>Your random number is:<%=random%>
+    </h3>
+    <% if(random%2===0){ %>
+         <h3>even</h3> 
+            <% }else{ %>
+                 <h3>odd</h3> 
+                    <% } %>
+                    <button type="button" class="btn btn-primary">Primary</button>
+    <% -include("partials/footer") %> 
